@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: leandrouekipipelinesjavascriptdockerprod 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: leandrouekipipelinesjavascriptdockerprod
+  template:
+    metadata:
+      labels:
+        app: leandrouekipipelinesjavascriptdockerprod 
+    spec:
+      containers:
+        - name: leandrouekipipelinesjavascriptdockerprod 
+          image: uekiacr.azurecr.io/leandrouekipipelinesjavascriptdockerprod
+          ports:
+          - containerPort: 8080
