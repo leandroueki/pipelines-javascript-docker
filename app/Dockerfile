@@ -9,3 +9,9 @@ COPY . .
 
 EXPOSE 8080
 CMD [ "npm", "start" ]
+
+LABEL Target="Prod" \
+      owner="leandro.ueki@zurich.com" \
+      Department="ITSS-Architecture" \
+      DataClassification="Internal" \
+      PlanningIT="54321"
