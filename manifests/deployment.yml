@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: leandrouekipipelinesjavascriptdockerprod 
-          image: uekiacr.azurecr.io/leandrouekipipelinesjavascriptdockerprod
+          image: leeandrew.azurecr.io/leandrouekipipelinesjavascriptdockerprod
           ports:
           - containerPort: 8080
