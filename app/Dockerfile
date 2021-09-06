@@ -10,7 +10,7 @@ COPY . .
 EXPOSE 8080
 CMD [ "npm", "start" ]
 
-LABEL Target="Sandbox" \
+LABEL Target="Prod" \
       owner="leandro.ueki@zurich.com" \
       Department="ITSS-Architecture" \
       DataClassification="Internal" \
