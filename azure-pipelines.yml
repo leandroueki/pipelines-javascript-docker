@@ -43,3 +43,8 @@ stages:
         twistlockService: 'Azure-DevOps'
         artifact: '$(containerRegistry)/$(imageRepository):$(tag)'
 
+- task: KubernetesManifest@0
+  inputs:
+    action: 'deploy'
+    kubernetesServiceConnection: 'asd-rew-k8s'
+    namespace: 'test_app'
