@@ -40,7 +40,7 @@ stages:
         containerRegistry: $(dockerRegistryServiceConnection)
         tags: |
           $(tag)
-          "tier": "testing"
+          
         
     - task: prisma-cloud-compute-scan@3
       inputs:
