@@ -13,5 +13,4 @@ CMD [ "npm", "start" ]
 LABEL Target="Dev" \
       owner="rob.wheeler@uk.zurich.com" \
       Department="ITSS-SecEng" \
-      DataClassification="Internal" \
-      PlanningIT="12345"
+      DataClassification="Internal"
